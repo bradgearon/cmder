@@ -1,2 +1,4 @@
 @echo off
-start vendor/conemu-maximus5/ConEmu.exe /Title Cmder /LoadCfgFile ../../config/ConEmu.xml
+if defined ProgramFiles(x86) set bitness=64
+set conemu=%programfiles%\conemu\conemu%bitness%.exe
+start "" "%conemu%" /Title "Cmder" /LoadCfgFile "%CD%/config/ConEmu.xml" 

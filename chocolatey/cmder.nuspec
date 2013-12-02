@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cmder</id>
+    <title>cmder</title>
+    <owners>Brad Gearon</owners>
+    <summary>cmder</summary>
+    <description>cmder</description>
+    <tags>cmder cmd console</tags>
+    <copyright></copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/bradgearon/cmder/master/icons/icon_256.png</iconUrl>
+    <dependencies>
+      <dependency id="conemu" version="13.9.13.0" />
+    </dependencies>
+	<version>0.1</version>
+	<authors>Brad Gearon</authors>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
